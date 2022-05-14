@@ -1,4 +1,14 @@
-#########Steps for creating new project##############
+# Steps for creating new project
+
+
+Configure user information for all local repositories
+
+$ git config --global user.name "[name]"
+
+Sets the name you want attached to your commit transactions
+
+$ git config --global user.email "[email address]"
+
 
 1) Create a folder in the directory
 2) git init (Enter this command in the folder to initialize the git repo)
@@ -11,13 +21,13 @@
   
    git remote add origin <COPIED_REPO_URL>
 8) git push --set-upstream origin master 
-The above command is used for two things:
+## The above command is used for two things:
 1) It used to connect your local branch to remote master branch. It makes sync.
 2) Deploy the local repo objects to remote repo.
 
 
 
->>>>>>>>>>COMMANDS<<<<<<<<<<<:
+<COMMANDS>
 
 …or create a new repository on the command line
 
@@ -35,4 +45,26 @@ git push --set-upstram origin master
 git remote add origin https://github.com/vasuwebdeveloper/Bootstrap.git
 git branch -M main
 git push -u origin main
+
+
+<Common Errors>
+
+# ERROR 1:
+
+error: src refspec master does not match any.  
+error: failed to push some refs to 'ssh://xxxxx.com/project.git'
+
+# SOLUTION: 
+Add to local repo and commit it.
+
+git commit -m "initial commit"
+git push origin main
+
+
+
+
+
+
+
+
 
