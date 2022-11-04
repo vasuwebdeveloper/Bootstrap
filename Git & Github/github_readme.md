@@ -1,7 +1,7 @@
 # Steps for creating new project
 
 
-Configure user information for all local repositories
+# Configure user information for all local repositories
 
 $ git config --global user.name "[name]"
 
