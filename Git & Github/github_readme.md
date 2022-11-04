@@ -54,7 +54,7 @@ git push -u origin main
 error: src refspec master does not match any.  
 error: failed to push some refs to 'ssh://xxxxx.com/project.git'
 
-# SOLUTION: 
+# SOLUTION::
 Add to local repo and commit it.
 
 git commit -m "initial commit"
