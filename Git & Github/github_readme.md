@@ -47,6 +47,11 @@ git branch -M main
 git push -u origin main
 
 
+# To get the branches that are created remote repo to local repo 
+
+git pull
+
+
 <Common Errors>
 
 # ERROR 1:
@@ -63,6 +68,8 @@ git push origin main
 
 # TEXT
 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
+
+
 
 
 
